@@ -1,7 +1,10 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-MarioNETte: make social network analysis your puppet
+MarioNETte: 1.0.0 "Master of Puppets"
 =======================================
+
+# Make social network analysis your puppet
+
 <img src="https://raw.githubusercontent.com/justmj/marionette/main/imgfile.png" width="200"/>
 
 :writing\_hand: Author
