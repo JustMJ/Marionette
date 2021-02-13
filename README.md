@@ -6,7 +6,7 @@ Make social network analysis your puppet
 
 <img src="https://raw.githubusercontent.com/justmj/marionette/main/imgfile.png" width="200"/>
 
-:writing\_hand: Author
+Author
 ----------------------
 
 Justin Jones
@@ -16,7 +16,7 @@ Psychology Department, The University of Georgia
 
 ------------------------------------------------------------------------
 
-:arrow\_double\_down: Installation
+Installation
 ----------------------------------
 
 You can install the package via the Github repository.
