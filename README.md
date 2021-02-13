@@ -10,14 +10,11 @@ Make social network analysis your puppet
 
 [![Lifecycle:
 maturing](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![R build
-status](https://github.com/r-lib/marionette/workflows/R-CMD-check/badge.svg)](https://github.com/r-lib/marionette/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/r-lib/marionette/branch/main/graph/badge.svg)](https://codecov.io/gh/r-lib/marionette?branch=main)
 [![](https://travis-ci.org/rstudio/rmarkdown.svg?branch=master)](https://travis-ci.org/rstudio/rmarkdown)
 [![](https://img.shields.io/github/last-commit/JustMJ/marionette.svg)](https://github.com/JustMJ/marionette/commits/master)
 [![Dependencies](https://tinyverse.netlify.com/badge/marionette)](https://cran.r-project.org/package=marionette)
-<!-- badges: end -->
 
 Author
 ----------------------
