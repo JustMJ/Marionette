@@ -2,6 +2,7 @@
 
 MarioNETte: make network data your puppet
 =======================================
+<img src="https://raw.githubusercontent.com/justmj/marionette/main/imgfile.png" width="200"/>
 
 :writing\_hand: Author
 ----------------------
