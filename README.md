@@ -9,7 +9,7 @@ Make social network analysis your puppet
 <!-- badges: start -->
 
 [![Lifecycle:
-maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+maturing](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![R build
 status](https://github.com/r-lib/marionette/workflows/R-CMD-check/badge.svg)](https://github.com/r-lib/marionette/actions)
 [![Codecov test
