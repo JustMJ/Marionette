@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-MarioNETte: make network data your puppet
+MarioNETte: make social network analysis your puppet
 =======================================
 <img src="https://raw.githubusercontent.com/justmj/marionette/main/imgfile.png" width="200"/>
 
