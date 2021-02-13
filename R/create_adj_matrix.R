@@ -1,0 +1,30 @@
+#' Create an Adjacency Matrix
+#'
+#' This function turns edgelists into Adjacency Matrices.
+#'
+#' @export
+create_adj_matrix<- function(edge_data) {
+
+  edge <- edge_data %>%
+    filter(to %in% panel$ExternalDataReference) %>%
+    filter(from %in% panel$ExternalDataReference) %>%
+    mutate(tie = 1) # This filter makes the matrices symmetric
+
+  empty_edge<- expand_grid(x = panel$ExternalDataReference,y = panel$ExternalDataReference)
+
+  empty_edge %<>%
+    mutate(tie = 0)
+
+  empty_net<- anti_join(empty_edge,edge,by=c("x"="from","y"="to"))
+
+  temp <- edge %>%
+    full_join(empty_net,by=c("from"="x","to"="y","tie"="tie")) %>%
+    mutate(tie = case_when(from == to ~ NA_real_, TRUE ~ tie))
+
+  adj<- temp %>%
+    arrange(from,to) %>%
+    pivot_wider(names_from=to,values_from=tie) %>%
+    column_to_rownames("from")
+
+  return(adj)
+}
