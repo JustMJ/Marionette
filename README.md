@@ -6,6 +6,16 @@ Make social network analysis your puppet
 
 <img src="https://raw.githubusercontent.com/justmj/marionette/main/imgfile.png" width="200"/>
 
+<!-- badges: start -->
+
+[![Lifecycle:
+maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![R build
+status](https://github.com/r-lib/marionette/workflows/R-CMD-check/badge.svg)](https://github.com/r-lib/marionette/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/r-lib/marionette/branch/main/graph/badge.svg)](https://codecov.io/gh/r-lib/marionette?branch=main)
+<!-- badges: end -->
+
 Author
 ----------------------
 
