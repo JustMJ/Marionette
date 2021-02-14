@@ -4,6 +4,7 @@
 language: R
 sudo: false
 cache: packages
+warnings_are_errors: false
 
 after_success:
   - Rscript -e 'pkgdown::build_site()'
