@@ -1,18 +1,17 @@
-
-# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
-
 language: R
 sudo: false
 cache: packages
 warnings_are_errors: false
-
 after_success:
-  - Rscript -e 'pkgdown::build_site()'
+- Rscript -e 'pkgdown::build_site()'
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_PAT
+  github-token: "$GITHUB_PAT"
   keep-history: true
   local-dir: docs
   on:
     branch: main
+env:
+  global:
+    secure: AjdsjawR+N28ba/YMAYZ6BbVV9upRqn/k7f8CZAgbR57TCxymlUcpzIj7m/c+zzdvVQ9AqhnR0AJOAUh5TySlOWFIHqXWk6Pw21IixTmFX5GUPyupdN4Y5JBXLwLQb7PGCZM0xp96OXDWNGLzzo1wwgkSCB75Z2T0EJE3V2ZKW8IMoxFRYVxp4Q/3vgHHKj/bkzntaVU9Nu6doflP+J2dUrs3pAtZgAtkNraVP0GH41WrE9CFOjzx3mD7pFHuupC6vZkDj8iWRgejFk1kYGnKCKHP/sWpb+BSr4LObZDSqC29YO2FqfwELGqXzwIZmyHa3X97Su3xcQDUwsJYaxtf6uE3Erg/egmQYmmsYaF4Cwel+sWXlCPvOdDCCbAVim8j0/uNgArnVs8yaoi+fFWrBHgFTLMCNN54H9STk87josU9/YoIiXYHGeoh49+aAqllqXXmfUldet1v3NgTFpVrO6n5Q3M1RovkQ4KIV+WKIgj+otbnLQaMjL6u6y/+3XwRpUuVpnJdPyk3C1rfv2saMMVxOfrr0dTOexLrOn5/Yc4SGysY7venxvnp177C1wHRghDvjBoFHzc5rpeKEEk3vhHeDWLjBQiTLWOghuxClVk10ifi0qXIOoPy6uamTMzfwnR+qyo55IPlwWlQsBcGo5nO3vzYt+hsntPKGTNs7Q=
