@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-MarioNETte: 1.0.0 "Master of Puppets"
+MarioNETte: 0.1.0 "Master of Puppets"
 =======================================
 Make social network analysis your puppet
 
