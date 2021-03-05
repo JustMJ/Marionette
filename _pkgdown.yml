@@ -1,0 +1,26 @@
+title: Marionette
+url: https://github.com/JustMJ/Marionette
+template:
+  params:
+    bootswatch: flatly
+reference:
+  -title: Exported Functions
+navbar:
+  type: default
+  left:
+  - icon: fa-home
+    href: index.html
+  right:
+    - text: "Articles"
+      icon: fas -fa-book
+      menu:
+      - text: Installation
+    - text: "news"
+authors:
+  Justin Jones:
+    href: https://justmj.github.io
+
+
+
+
+
