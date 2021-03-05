@@ -47,3 +47,5 @@ inst/doc
 .env
 *.tex
 docs
+renv.lock
+/renv/
