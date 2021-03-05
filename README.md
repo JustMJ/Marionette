@@ -14,16 +14,6 @@ coverage](https://codecov.io/gh/r-lib/marionette/branch/main/graph/badge.svg)](h
 [![](https://img.shields.io/github/last-commit/JustMJ/marionette.svg)](https://github.com/JustMJ/marionette/commits/master)
 [![Dependencies](https://tinyverse.netlify.com/badge/marionette)](https://cran.r-project.org/package=marionette)
 
-Author
-----------------------
-
-Justin Jones
-<a href="https://justmj.github.io" class="uri">https://justmj.github.io</a>
-
-Psychology Department, The University of Georgia
-
-------------------------------------------------------------------------
-
 Installation
 ----------------------------------
 
