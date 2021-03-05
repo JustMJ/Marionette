@@ -32,7 +32,7 @@ Installation
 You can install the package via the Github repository.
 
     # install.package("remotes")   #In case you have not installed it.
-    remotes::install_github("JustMJ/MarioNETte")
+    remotes::install_github("JustMJ/Marionette")
 
 ------------------------------------------------------------------------
 
