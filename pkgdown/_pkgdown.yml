@@ -1,10 +1,20 @@
+url: https://github.com/JustMJ/Marionette
+
 authors:
   Justin Jones:
     href: https://justmj.github.io
 
+development:
+  mode: release
+  version_label: default
+
 template:
-  params:
-    bootswatch: flatly
+  bootswatch: flatly
+
+news:
+  cran_dates: false
 
 navbar:
+  title: ~
   type: default
+  
