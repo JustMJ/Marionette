@@ -1,10 +1,8 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Marionette <img src="https://raw.githubusercontent.com/justmj/marionette/main/Untitled-1.png" align="right" width="450"/>
+# Marionette <img src="https://raw.githubusercontent.com/justmj/marionette/main/Untitled-1.png" align="right" width="300"/>
 
 ***Make social network analysis your puppet***
-
-<img src="https://raw.githubusercontent.com/justmj/marionette/main/Untitled-1.png" width="450"/>
 
 <!-- badges: start -->
 
