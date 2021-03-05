@@ -3,9 +3,8 @@ Type: Package
 Title: Make Social Network Analysis Your Puppet
 Version: 0.1.0
 Authors@R: 
-    c(person(given="Justin",
-    family="Jones",
-    
+    c(person(given = "Justin",
+    family = "Jones",
     role=c("aut","cre"),
     email = "justinmjones23@gmail.com",
     comment = c(ORCID = "0000-0002-4918-3288")))
