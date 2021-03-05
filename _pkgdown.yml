@@ -1,0 +1,11 @@
+authors:
+  Justin Jones:
+    href: https://justmj.github.io
+
+template:
+  params:
+    ganalytics: UA-97457476-7
+    bootswatch: cosmo
+
+navbar:
+  type: default

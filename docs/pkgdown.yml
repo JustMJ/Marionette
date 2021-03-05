@@ -1,21 +1,6 @@
-url: https://justmj.github.io/Marionette/
+pandoc: 2.11.4
+pkgdown: 1.6.1
+pkgdown_sha: ~
+articles: {}
+last_built: 2021-03-05T18:57Z
 
-home:
-  title: Make social network analysis your puppet
-
-authors:
-  Justin Jones:
-    href: https://justmj.github.io
-
-template:
-  params:
-    bootswatch: flatly
-
-development:
-  mode: auto
-
-
-- title: Templates
-  contents:
-  - template_navbar
-  - render_page
