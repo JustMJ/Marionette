@@ -5,11 +5,12 @@ authors:
     href: https://justmj.github.io
 
 development:
-  mode: release
+  mode: auto
   version_label: default
 
 template:
-  bootswatch: flatly
+  params:
+    bootswatch: flatly
 
 news:
   cran_dates: false
@@ -17,4 +18,4 @@ news:
 navbar:
   title: ~
   type: default
-  
+
