@@ -2,7 +2,7 @@
 
 Marionette: 0.1.0 "Master of Puppets"
 =======================================
-Make social network analysis your puppet
+## Make social network analysis your puppet
 
 <img src="https://raw.githubusercontent.com/justmj/marionette/main/Untitled-1.png" width="450"/>
 
