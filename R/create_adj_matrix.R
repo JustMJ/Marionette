@@ -8,7 +8,8 @@ create_adj_matrix<- function(edge_data) {
   edge <- edge_data %>%
     filter(to %in% panel$ExternalDataReference) %>%
     filter(from %in% panel$ExternalDataReference) %>%
-    mutate(tie = 1) # This filter makes the matrices symmetric
+    mutate(tie = 1) %>% # This filter makes the matrices symmetric
+    mutate_if(~ any(is.character(.)),~as.numeric(.))
 
   empty_edge<- expand_grid(x = panel$ExternalDataReference,y = panel$ExternalDataReference)
 
