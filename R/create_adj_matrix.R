@@ -3,7 +3,8 @@
 #' This function turns edgelists into Adjacency Matrices.
 #'
 #' @export
-cr_edge<- function (edge_data,panel) 
+
+function (edge_data,panel) 
 {
   edge <- edge_data %>% 
     mutate_all(as.numeric) %>% 
