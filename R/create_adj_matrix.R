@@ -4,7 +4,7 @@
 #'
 #' @export
 
-function (edge_data,panel) 
+create_adj_matrix <- function (edge_data,panel) 
 {
   edge <- edge_data %>% 
     mutate_all(as.numeric) %>% 
